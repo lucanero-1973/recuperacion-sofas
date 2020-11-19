@@ -1,9 +1,21 @@
 // tipografia
 $font: 'Arial', 'Arial Black';
 
+
+
 // tamaños
 $font-size-base: 16px;
 
-$font-size-titulo: convetir(140);
+$font-size-titulo: convertir(140);
 $font-size-parrafo: convertir(16);
-$font-size-links: convetir(24);
+$font-size-links: convertir(24);
+
+
+// HTML
+html{
+    font-size: $font-size-base;
+    font-family: nth($font,1), sans-serif;
+    &, a{
+        color: $color-blanco;
+    }
+}

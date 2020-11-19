@@ -1,0 +1,9 @@
+.zona_info{
+    background-color: $color-azul-light;
+    padding: $padding-zonas;
+}
+.info__titulo{
+    font-family: nth($font,2), sans-serif;
+    font-size: $font-size-titulo;
+    margin: 0;
+}

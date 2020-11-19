@@ -1,0 +1,20 @@
+// Placeholder
+%btn{
+    display: inline-block;
+    padding: convertir(10) convertir(20);
+    background-color: $color-azul-light;
+    color: $color-blanco;
+    border-radius: $border-radius;
+    text-decoration: none;
+    border: convertir(5) solid transparent;
+    
+    &:hover{
+        border: convertir(5) solid $color-azul-dark;
+        color: $color-azul-dark;
+    }
+}
+
+// Botones
+.nav__contactar{
+    @extend %btn;
+}

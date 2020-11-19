@@ -1,0 +1,8 @@
+// Grid para el container
+%grid_4x4{
+    display: grid;
+    grid-template: {
+        columns: 10vw repeat(2, 1fr) 10vw;
+        rows: 80px 1fr auto 0.8fr;
+    };
+}

@@ -1,0 +1,30 @@
+.zona_nav{
+    background-color: $color-azul;
+    padding: $padding-zonas;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.nav {
+    &__menu {
+        font-size: $font-size-links;
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.menu {
+    
+    &__inicio {
+        text-decoration: none;
+    }
+    &__productos {
+        text-decoration: none;
+    }
+    &__quienes {
+        text-decoration: none;
+    }
+}
